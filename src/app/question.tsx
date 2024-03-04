@@ -14,7 +14,7 @@ export default function Question(){
     }
     return (
         <>
-            <p className="my-20 text-[rgb(0,72,255)] text-3xl md:text-5xl text-center font-semibold" id="faq">Frequently ask questions</p>
+            <p className="my-20 text-[rgb(0,72,255)] text-2xl md:text-5xl text-center font-semibold" id="faq">Frequently ask questions</p>
       
             <div className="max-w-[1700px] mx-10 2xl:mx-auto">
                 <div className="border border-black my-10">

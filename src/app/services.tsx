@@ -21,7 +21,7 @@ export default function Services(){
 
     return (
         <>
-            <p className="my-20 text-[rgb(0,72,255)] text-5xl text-center font-semibold scroll-py-24" id="service">Our Services</p>
+            <p className="my-20 text-[rgb(0,72,255)] text-3xl md:text-5xl text-center font-semibold scroll-py-24" id="service">Our Services</p>
 
             <Carousel responsive={responsive} ssr itemClass="md:px-10" className="mx-10 lg:m-auto max-w-[1700px]" showDots={true} keyBoardControl={true} swipeable={false}> 
                 
