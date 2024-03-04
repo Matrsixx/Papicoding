@@ -14,11 +14,11 @@ export default function Question(){
     }
     return (
         <>
-            <p className="my-20 text-[rgb(0,72,255)] text-5xl text-center font-semibold" id="faq">Frequently ask questions</p>
+            <p className="my-20 text-[rgb(0,72,255)] text-3xl md:text-5xl text-center font-semibold" id="faq">Frequently ask questions</p>
       
             <div className="max-w-[1700px] mx-10 2xl:mx-auto">
                 <div className="border border-black my-10">
-                <button className="text-left flex py-7 text-2xl w-full px-5 bg-[rgb(239,247,255)] font-semibold" onClick={handleClick}>
+                <button className="text-left flex py-7 text-xl md:text-2xl w-full px-5 bg-[rgb(239,247,255)] font-semibold" onClick={handleClick}>
                     <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20" className={`w-10 translate-y-1 ${isShown ? `rotate-90` : `rotate-0`}`} id="cds-react-aria-10"><path fillRule="evenodd" clipRule="evenodd" d="M14.293 10L5.646 1.354l.708-.708L15.707 10l-9.353 9.354-.708-.707L14.293 10z" fill="currentColor"></path></svg>
                     Can i Get Free Trial ?
                 </button>
@@ -26,7 +26,7 @@ export default function Question(){
                 </div>
 
                 <div className="border border-black">
-                <button className="text-left flex py-7 text-2xl w-full px-5 bg-[rgb(239,247,255)] font-semibold" onClick={handleClick1}>
+                <button className="text-left flex py-7 text-xl md:text-2xl w-full px-5 bg-[rgb(239,247,255)] font-semibold" onClick={handleClick1}>
                     <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20" className={`w-10 translate-y-1 ${isShown1 ? `rotate-90` : `rotate-0`}`} id="cds-react-aria-10"><path fillRule="evenodd" clipRule="evenodd" d="M14.293 10L5.646 1.354l.708-.708L15.707 10l-9.353 9.354-.708-.707L14.293 10z" fill="currentColor"></path></svg>
                     Can i Get Free Trial ?
                 </button>

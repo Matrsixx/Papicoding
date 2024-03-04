@@ -23,7 +23,7 @@ export default function Services(){
         <>
             <p className="my-20 text-[rgb(0,72,255)] text-5xl text-center font-semibold scroll-py-24" id="service">Our Services</p>
 
-            <Carousel responsive={responsive} ssr itemClass="px-10" className="mx-10 lg:m-auto max-w-[1700px]" showDots={true} keyBoardControl={true} swipeable={false}> 
+            <Carousel responsive={responsive} ssr itemClass="md:px-10" className="mx-10 lg:m-auto max-w-[1700px]" showDots={true} keyBoardControl={true} swipeable={false}> 
                 
                 <div className="grid bg-[rgb(255,245,255)] py-10 text-center w-full h-fit">
                     <p className="text-xl font-bold text-[rgb(0,43,154)]">Fundamental Website</p>
