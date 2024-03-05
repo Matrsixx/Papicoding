@@ -10,14 +10,17 @@ export default function Navbar(){
             </Link>       
                   
             <div className="flex">
-                <Link className="mx-1 text-[12px] md:mx-5 lg:text-lg 2xl:text-2xl" href="/#service">Services</Link>
-                <Link className="mx-1 text-[12px] md:mx-5 lg:text-lg 2xl:text-2xl" href="/#teacher">Teacher</Link>
+                <Link className="mx-1 text-[12px] md:mx-5 lg:text-lg 2xl:text-2xl" href="/#service">Layanan</Link>
+                <Link className="mx-1 text-[12px] md:mx-5 lg:text-lg 2xl:text-2xl" href="/#teacher">Pengajar</Link>
                 <Link className="mx-1 text-[12px] md:mx-5 lg:text-lg 2xl:text-2xl" href="/#faq">FAQ</Link>
             </div>
 
-            <button className="border border-[rgb(214,0,141)] px-2 py-1 rounded-xl text-[11px] md:border-2 lg:text-lg lg:rounded-2xl 2xl:text-2xl 2xl:px-5 2xl:py-2">
-                Contact Us
-            </button>
+            <Link href="https://wa.me/+6285931036288?text=Halo Papicoding" target="_blank">
+                <button className="border border-[rgb(214,0,141)] px-2 py-1 rounded-xl text-[11px] md:border-2 lg:text-lg lg:rounded-2xl 2xl:text-2xl 2xl:px-5 2xl:py-2">
+                    Hubungi Kami
+                </button>
+            </Link>
+            
         </div>
     )
 }
