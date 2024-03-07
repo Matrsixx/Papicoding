@@ -8,7 +8,6 @@ import VincentPhoto from "../../public/Vincent_Photo.jpeg";
 import HowiePhoto from "../../public/Howie_Photo.png";
 import JunthauPhoto from "../../public/Junthau_Photo.png";
 import linkedinLogo from "../../public/linkedin_logo.svg";
-import instagramLogo from "../../public/instagram_logo.svg";
 import whatsappLogo from "../../public/whatsapp_logo.svg";
 import { useState } from "react";
 
@@ -154,7 +153,7 @@ export default function Home() {
                         </li>
                     </ul>
                 </div>
-            </Carousel>;
+            </Carousel>
 
             <p className="my-20 text-[rgb(0,72,255)] text-2xl md:text-5xl text-center font-semibold" id="teacher">Temui Guru Anda</p>
 
@@ -227,7 +226,7 @@ export default function Home() {
                         <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20" className={`w-10 translate-y-1 ${isShown ? `rotate-90` : `rotate-0`}`} id="cds-react-aria-10"><path fillRule="evenodd" clipRule="evenodd" d="M14.293 10L5.646 1.354l.708-.708L15.707 10l-9.353 9.354-.708-.707L14.293 10z" fill="currentColor"></path></svg>
                         Apakah saya mendapatkan sertifikat ?
                     </button>
-                    <p className={`px-8 text-md pb-5 bg-[rgb(239,247,255)] ${isShown ? `block ` : `hidden absolute`} lg:text-lg xl:text-xl`}>Iya! kamu akan mendapatkan sertifikat resmi yang sudah ditandatangani. <br /><br />kamu bisa mendapatkan sertifikat apabila menyelesaikan project dari kami, project akan kamu dapatkan setelah mengikuti setiap sesi dari pengajaran kami. sertifikat ini juga dapat diupload di Linkedin dan dapat diverifikasi langsung di website kami</p>
+                    <p className={`px-8 text-md pb-5 bg-[rgb(239,247,255)] ${isShown ? `block ` : `hidden absolute`} lg:text-lg xl:text-xl`}>Iya! kamu akan mendapatkan sertifikat resmi yang sudah ditandatangani. <br /><br />Kamu bisa mendapatkan sertifikat apabila menyelesaikan project dari kami, project akan kamu dapatkan setelah mengikuti setiap sesi dari pengajaran kami. Sertifikat ini juga dapat diupload di Linkedin dan dapat diverifikasi langsung di website kami.</p>
                 </div>
 
                 <div className="border border-black mb-10">
@@ -235,23 +234,21 @@ export default function Home() {
                         <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20" className={`w-10 translate-y-1 ${isShown1 ? `rotate-90` : `rotate-0`}`} id="cds-react-aria-10"><path fillRule="evenodd" clipRule="evenodd" d="M14.293 10L5.646 1.354l.708-.708L15.707 10l-9.353 9.354-.708-.707L14.293 10z" fill="currentColor"></path></svg>
                         Bagaimana cara mendaftar dan mulai belajar?
                     </button>
-                    <p className={`px-8 text-md pb-5 bg-[rgb(239,247,255)] ${isShown1 ? `block ` : `hidden absolute`} lg:text-lg xl:text-xl`}>Kamu cukup mendaftar melalui Whatsapp kami dan melakukan pembayaran<br /><br />Setelah melakukan pembayaran tim kami akan melakukan penjadwalan sesi dengan pengajar, kamu juga berhak untuk mereschedule jadwal pertemuan jika memang diperlukan</p>
+                    <p className={`px-8 text-md pb-5 bg-[rgb(239,247,255)] ${isShown1 ? `block ` : `hidden absolute`} lg:text-lg xl:text-xl`}>Kamu cukup mendaftar melalui Whatsapp kami dan melakukan pembayaran<br /><br />Setelah melakukan pembayaran, tim kami akan melakukan penjadwalan sesi dengan pengajar. Kamu juga berhak untuk me-<i>reschedule</i> jadwal pertemuan jika memang diperlukan.</p>
                 </div>
 
                 <div className="border border-black">
                     <button className="text-left flex py-4 md:py-7 text-base md:text-2xl w-full px-5 bg-[rgb(239,247,255)] font-semibold" onClick={handleClick2}>
-                        <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20" className={`w-10 translate-y-1 ${isShown1 ? `rotate-90` : `rotate-0`}`} id="cds-react-aria-10"><path fillRule="evenodd" clipRule="evenodd" d="M14.293 10L5.646 1.354l.708-.708L15.707 10l-9.353 9.354-.708-.707L14.293 10z" fill="currentColor"></path></svg>
+                        <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20" className={`w-10 translate-y-1 ${isShown2 ? `rotate-90` : `rotate-0`}`} id="cds-react-aria-10"><path fillRule="evenodd" clipRule="evenodd" d="M14.293 10L5.646 1.354l.708-.708L15.707 10l-9.353 9.354-.708-.707L14.293 10z" fill="currentColor"></path></svg>
                         Bagaimana sistem pengajarannya?
                     </button>
-                    <p className={`px-8 text-md pb-5 bg-[rgb(239,247,255)] ${isShown2 ? `block ` : `hidden absolute`} lg:text-lg xl:text-xl`}>Sistem pengajaran dilakukan secara online<br /><br />Saat ini belum tersedia untuk pertemuan langsung secara onsite, dan untuk lama per sesi nya kami hitung sampai materi benar benar habis</p>
+                    <p className={`px-8 text-md pb-5 bg-[rgb(239,247,255)] ${isShown2 ? `block ` : `hidden absolute`} lg:text-lg xl:text-xl`}>Sistem pengajaran dilakukan secara <i>online</i> dan <i>private</i>.<br /><br />Saat ini belum tersedia untuk pertemuan langsung secara <i>onsite</i>, dan untuk lama per sesi nya kami hitung sampai materi benar benar habis.</p>
                 </div>
             </div>
 
             <p className="my-20 text-[rgb(0,72,255)] text-2xl md:text-5xl text-center font-semibold">Find Us On</p>
 
             <div className="flex justify-center max-w-[1700px] mx-auto pb-20">
-                {/* <Image src={linkedinLogo} alt="Linkedin Logo" className="w-12 md:w-16 xl:w-20 mx-10" /> */}
-                {/* <Image src={instagramLogo} alt="Instagram Logo" className="w-12 md:w-16 xl:w-20" /> */}
                 <Link href="https://wa.me/+6285931036288?text=Halo Papicoding">
                     <Image src={whatsappLogo} alt="Whatsapp Logo" className="w-12 md:w-16 xl:w-20 mx-10" />
                 </Link>
