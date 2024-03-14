@@ -52,9 +52,9 @@ export default function Home() {
 
                     <p className="text-sm text-justify md:text-left md:text-sm lg:text-xl xl:text-2xl 2xl:text-2xl">Mulai perjalananmu di dunia digital dengan kursus coding yang terjangkau dan berkualitas!, Tim pengajar kami terdiri dari para profesional yang berpengalaman dan berdedikasi untuk memberikan pembelajaran terbaik.</p>
 
-                    <Link href="/#about">
+                    <Link href="/#service">
                         <button className="bg-gradient-to-l from-[rgb(9,21,63)] to-[rgb(0,43,194)] w-fit px-5 py-2 rounded-3xl text-white text-sm m-auto mt-5 md:m-0 lg:text-lg xl:text-xl 2xl:text-2xl">
-                            Coba 1 Free Session {'-->'}
+                            Cek program free trial {'-->'}
                         </button>
                     </Link>
                 </div>
