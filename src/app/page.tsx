@@ -48,13 +48,13 @@ export default function Home() {
             <div className="max-w-[1700px] m-auto grid md:flex" id="home">
 
                 <div className="flex justify-between flex-col px-10 text-center md:text-left">
-                    <p className="text-2xl font-bold bg-gradient-to-r from-[rgb(0,72,255)] to-[rgb(214,0,141)] inline-block text-transparent bg-clip-text py-5 md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">Pengajaran Coding Termurah di Indonesia</p>
+                    <p className="text-2xl font-bold bg-gradient-to-r from-[rgb(0,72,255)] to-[rgb(214,0,141)] inline-block text-transparent bg-clip-text py-5 md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">Mulai Belajar Programming Dengan Kami</p>
 
                     <p className="text-sm text-justify md:text-left md:text-sm lg:text-xl xl:text-2xl 2xl:text-2xl">Mulai perjalananmu di dunia digital dengan kursus coding yang terjangkau dan berkualitas!, Tim pengajar kami terdiri dari para profesional yang berpengalaman dan berdedikasi untuk memberikan pembelajaran terbaik.</p>
 
                     <Link href="/#about">
                         <button className="bg-gradient-to-l from-[rgb(9,21,63)] to-[rgb(0,43,194)] w-fit px-5 py-2 rounded-3xl text-white text-sm m-auto mt-5 md:m-0 lg:text-lg xl:text-xl 2xl:text-2xl">
-                            Pelajari Lebih Lanjut {'-->'}
+                            Coba 1 Free Session {'-->'}
                         </button>
                     </Link>
                 </div>
@@ -71,13 +71,13 @@ export default function Home() {
             <p className="my-20 text-[rgb(0,72,255)] text-2xl md:text-5xl text-center font-semibold scroll-py-24" id="service">Layanan Kami</p>
 
             <Carousel responsive={responsive} ssr itemClass="md:px-10" className="mx-10 lg:m-auto max-w-[1700px]" showDots={true} keyBoardControl={true} swipeable={true}>
-                <div className="grid bg-[rgb(255,245,255)] py-10 text-center w-full h-fit">
+                <div className="grid bg-[rgb(255,245,255)] py-10 text-center w-full h-fit border-2 border-[rgb(0,43,154)]">
                     <p className="text-xl font-bold text-[rgb(0,43,154)]">Frontend</p>
                     <p className="my-5 px-5 ">Mempelajari dasar dasar frontend di website menggunakan HTML, CSS dan Javascript</p>
                     <p className="text-3xl font-semibold">IDR 100,000<span className="text-base tracking-normal font-semibold">/session</span></p>
-
-                    <Link href="https://wa.me/+6285931036288?text=Halo Papicoding, Saya ingin memesan paket Frontend" target="_blank">
-                        <p className="mt-5 mx-6 py-3 border border-[rgb(0,72,255)] text-[rgb(0,72,255)] font-semibold rounded-lg hover:bg-[rgb(240,245,255)]">Beli Sekarang!</p>
+                   
+                    <Link href="https://wa.me/+6285931036288?text=Halo Papicoding, Saya ingin mencoba trial sesi Frontend" target="_blank">
+                        <p className="mt-5 mx-6 py-3 bg-[rgb(0,72,255)] text-white hover:bg-[rgba(0,72,255,0.9)] font-semibold rounded-lg hover:bg-[rgb(240,245,255)]">Coba Trial Sesi Sekarang!</p>
                     </Link>
                     
 
@@ -97,14 +97,14 @@ export default function Home() {
                     </ul>
                 </div>
 
-                <div className="grid bg-[rgb(255,245,255)] py-10 text-center w-full h-fit border-2 border-[rgb(0,43,154)]">
+                <div className="grid bg-[rgb(255,245,255)] py-10 text-center w-full h-fit ">
 
                     <p className="text-xl font-bold text-[rgb(0,43,154)]">Fullstack</p>
                     <p className="my-5 px-5 ">Mempelajari dasar dasar dari fullstack menggunakan PHP, HTML, CSS, MySQL</p>
                     <p className="text-3xl font-semibold">IDR 200,000<span className="text-base tracking-normal font-semibold">/session</span></p>
                     
                     <Link href="https://wa.me/+6285931036288?text=Halo Papicoding, Saya ingin memesan paket Fullstack" target="_blank">
-                        <p className="mt-5 mx-6 py-3 bg-[rgb(0,72,255)] text-white font-semibold rounded-lg hover:bg-[rgba(0,72,255,0.9)]">Beli Sekarang! Best deal</p>
+                        <p className="mt-5 mx-6 py-3 border border-[rgb(0,72,255)] text-[rgb(0,72,255)] font-semibold rounded-lg hover:bg-[rgb(240,245,255)]">Beli Sekarang!</p>
                     </Link>
                     
 
